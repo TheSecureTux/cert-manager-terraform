@@ -3,13 +3,13 @@ kind: Certificate
 metadata:
   name: 'example.com'
 spec:
-  secretName: sonar-test-ubeeqo-tls
+  secretName: sonar-test-example.com-tls
   issuerRef:
-    name: 'ubeeqotech'
+    name: 'example.comtech'
     kind: ClusterIssuer
   commonName: 'example.com'
   dnsNames:
-  - 'sonar-test.ubeeqo.tech'
+  - 'sonar-test.example.com.tech'
   acme:
     config:
     - dns01:

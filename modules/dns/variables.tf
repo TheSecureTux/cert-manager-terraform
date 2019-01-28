@@ -1,6 +1,6 @@
 variable "domain" {
   type        = "string"
-  default     = "ubeeqo.tech"
+  default     = "example.com.tech"
   
 }
 

@@ -1,6 +1,6 @@
 cloudflareApiKey: ""
 cloudflareEmail: ""
-letsencryptEmail: "es.dev-admins@ubeeqo.com"
+letsencryptEmail: "es.dev-admins@example.com.com"
 
 namespaces:
   - apps
