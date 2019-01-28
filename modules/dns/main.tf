@@ -5,10 +5,3 @@ resource "cloudflare_record" "ubeeqo-sonar-test" {
   value     = "${var.ip}"
 }
 
-# resource "cloudflare_record" "ubeeqo-sonar-main" {
-#   domain = "${var.domain}"
-#   type   = "A"
-#   name   = "sonar.${var.domain}"
-#   value  = "${var.ip}"
-# }
-
