@@ -1,0 +1,16 @@
+.git-crypt-key
+assets
+.terraform
+*.tfstate.*
+**/*.tfstate
+generated
+google_credentials.json
+*.tgz
+.env
+resources
+envs/local/**/main.tf
+.DS_Store
+**/.DS_Store
+.sonarlint
+.vscode/
+.swp
