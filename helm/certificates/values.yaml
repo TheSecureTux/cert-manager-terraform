@@ -1,0 +1,12 @@
+cloudflareApiKey: ""
+cloudflareEmail: ""
+letsencryptEmail: "es.dev-admins@ubeeqo.com"
+
+namespaces:
+  - apps
+  - default
+  - kube-public
+  - kube-system
+  - system
+  - sonar
+

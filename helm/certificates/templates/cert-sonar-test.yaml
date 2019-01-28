@@ -1,0 +1,23 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: 'sonar-test.ubeeqo.tech'
+spec:
+  secretName: sonar-test-ubeeqo-tls
+  issuerRef:
+    name: 'ubeeqotech'
+    kind: ClusterIssuer
+  commonName: 'sonar-test.ubeeqo.tech'
+  dnsNames:
+  - 'sonar-test.ubeeqo.tech'
+  acme:
+    config:
+    - dns01:
+        provider: cf-dns
+      domains:
+      - 'sonar-test.ubeeqo.tech'
+     # - 'ubeeqo.tech'
+    # - dns01:
+    #     provider: cf-dns
+    #   domains:
+    #   - 'sonar-test.ubeeqo.tech'
